@@ -3,7 +3,7 @@ extends CharacterBody2D
 @onready var anim = $anim
 
 const SPEED = 200.0
-const JUMP_VELOCITY = -400.0
+const JUMP_VELOCITY = -400.0 
 var attacking = false
 var hitPoint = 100
 var attackDamage = 15
